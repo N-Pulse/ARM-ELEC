@@ -250,19 +250,23 @@ Set the relevant flag(s) to `true` once you have validated each sensor path end-
 
 Once a power cut is triggered, it **latches** — the flag does not reset automatically. A manual reset (power cycle or serial command) is required before the safety system will re-arm.
 
----
 
 ## Troubleshooting
 
-If one of the lines is not being detected, it often happens that the pins are not well plugged in on the MCU (the pins tend to slip out).  
+If one of the lines is not being detected, it often happens that the pins are not well plugged in on the MCU (the pins tend to slip out).
 
 ## What to Add Next
 
 - **SD card logging** — `logToSDCard()` in `Logging.cpp` is empty. The Metro ESP32-S3 has a built-in MicroSD slot and it would be a useful feature for the safety system. 
 - **Using MCU Wireless capabilities** — The ESP32-S3 supports WiFi and Bluetooth; useful for reading data without cable connection with the arm.
 - **CAN / UART protocol** — Define how fault codes are forwarded to the main prosthetic control board.
+- **Prediction capabilities** - The MCU was chosen with a little extra horse power to be able to handle more demanding computations. One idea was to compute gradients and estiimate if one of the metrics was going to exceed the threshold and add a warning. 
 
----
+
+## Other
+
+There are two Adafruit DS2484 1Wire to I2C breakout boards left in the box with the test bench.
+
 
 ## Contributors
 

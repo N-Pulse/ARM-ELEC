@@ -50,7 +50,7 @@ The system uses two I2C buses on the Adafruit Metro ESP32-S3. Bus 0 (`Wire`, def
 
 #### JST cable labels
 
-![JST Schematic](Docs/JST_schema.jpeg)
+![JST Schematic](Docs/JST_schema.png)
 
 ![Cable Management](Docs/MCU_wiring.png)
 
@@ -223,6 +223,8 @@ temp_limit_flag, humidity_limit_flag, overcurrent_limit_flag,
 shock_flag, power_cut_flag, sensors_ok
 ```
 
+The code defaults with `PRINT_CSV_HEADER_AT_BOOT = false`. To have the CSV header printed at startup for easier CSV reading, simply set that to `true`.
+
 ---
 
 ## Enabling Power Cut Actions
@@ -244,9 +246,7 @@ Once a power cut is triggered, it **latches** — the flag does not reset automa
 
 ## Troubleshooting
 
-If one of the lines is not being detected, it often happens that the pins are not well plugged in on the MCU (the pins tend to slip out). 
-
-The code defaults with `PRINT_CSV_HEADER_AT_BOOT = false`. To have the CSV header printed at startup for easier csv reading, simple set that to `true`. 
+If one of the lines is not being detected, it often happens that the pins are not well plugged in on the MCU (the pins tend to slip out).  
 
 ## What to Add Next
 

@@ -62,6 +62,14 @@ The system uses two I2C buses on the Adafruit Metro ESP32-S3. Bus 0 (`Wire`, def
 
 Depending on the setup, it may be beneficial to make sure VIN- is the same as the systems GND (e.g. when using a lab alim), then wire like on the image (with the jumper). When trying to use the sensor on the test bench with the battery for example, simple pass the high or low cable of the battery through the VIN+ to VIN-. You might want remove the jumper and potentiometer to avoid any confusion in the wiring (unless the grounding is still useful). 
 
+#### Full test-bench
+
+![test bench](Docs/test_bench.png)
+
+Refer to this image to wire the test bench correctly.
+
+Also note there are 3D printed motor mounts (orange), which can be used to test the motor under load and the thermal sensors. 
+
 #### System-level block diagram and hand-level schematic: 
 ![2026_04_15_hand_schematic.png](Docs/2026_04_15_hand_schematic.png)
 

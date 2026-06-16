@@ -1,0 +1,8 @@
+# N-Pulse Serial Dashboard — Python dependencies
+# Install with: pip install -r requirements.txt
+# Tested with Python 3.10+
+
+pyserial>=3.5
+dash>=2.14.0
+plotly>=5.18.0
+pandas>=2.0.0

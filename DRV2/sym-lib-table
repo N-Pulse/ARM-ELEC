@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "5037630591") (type "KiCad") (uri "/Users/inavambenepe-undseth/Downloads/connectors/5037630591.kicad_sym") (options "") (descr ""))
+	(lib (name "5037630291") (type "KiCad") (uri "/Users/inavambenepe-undseth/Downloads/connectors/5037630291.kicad_sym") (options "") (descr ""))
+	(lib (name "5037630491") (type "KiCad") (uri "/Users/inavambenepe-undseth/Downloads/connectors/5037630491.kicad_sym") (options "") (descr ""))
+)

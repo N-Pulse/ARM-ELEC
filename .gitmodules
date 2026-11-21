@@ -1,0 +1,3 @@
+[submodule "Footprint-Library"]
+	path = Footprint-Library
+	url = https://github.com/N-Pulse/Footprint_Library.git

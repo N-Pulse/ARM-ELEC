@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Footprint pwr_board") (type "KiCad") (uri "${KIPRJMOD}/Library_pwr_board_v1_2627.pretty") (options "") (descr ""))
+)

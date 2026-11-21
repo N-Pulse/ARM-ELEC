@@ -1,0 +1,133 @@
+(footprint "CSBX0650"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CODACA CSBX0650 series, 7.0 x 6.9 x 4.7 mm, 2-SMD, recommended land pattern")
+	(tags "CODACA CSBX0650 0650 power inductor 4.7uH shielded")
+	(property "Reference" "L"
+		(at 0 -4.15 0)
+		(layer "F.SilkS")
+		(uuid "dd0d0aea-4bf6-4c45-9623-bc2ff0b06e21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSBX0650-4R7M"
+		(at 0 4.15 0)
+		(layer "F.Fab")
+		(uuid "1659500e-d871-46e0-b73c-bf10454f3ce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e657fe1b-79f6-45b1-a0b2-081ba62a3cbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc495f47-fa51-4017-96ff-9e3adbe2f9cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.35 -3.3)
+		(end -3.35 -2.9)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "373171f5-ab8d-4a79-8b39-a173361887b4")
+	)
+	(fp_line
+		(start -3.35 -3.3)
+		(end -2.95 -3.3)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60ca771a-afa4-4ee0-b440-de732256d7ec")
+	)
+	(fp_rect
+		(start -3.35 -3.3)
+		(end 3.35 3.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9a91a36d-9498-4e4b-8961-2664f98f087f")
+	)
+	(fp_rect
+		(start -3.9 -3.85)
+		(end 3.9 3.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e4b928a9-0729-4cf9-8444-f4a117c990e7")
+	)
+	(fp_rect
+		(start -3.5 -3.45)
+		(end 3.5 3.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a988b2fe-e0aa-4895-9a28-038720507a2a")
+	)
+	(fp_text user "1"
+		(at -3 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "d586e73c-e6ee-4817-b875-dde57aa64ce6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.55)
+		(size 2.2 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "aa4c03a2-017b-4fdd-b5b1-77c8edb9cd3e")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.55)
+		(size 2.2 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "54f67c46-452e-4213-b70d-3bab49803baa")
+	)
+	(embedded_fonts no)
+)
